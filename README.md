@@ -9,6 +9,9 @@
 - Frank Guzman Escudero
 - Manuel Ramírez Sáenz
 
+## Logro de Aprendizaje
+Al finalizar esta sesión, el estudiante conoce la utilidad y beneficios de la programación en shell a través de scripts.
+
 ## 🛠️ ¿Qué es Shell?
 
 El **shell** es un intérprete de comandos que provee una interfaz entre el usuario y el kernel del sistema operativo. Interpreta los comandos que el usuario escribe para que puedan ser ejecutados.
