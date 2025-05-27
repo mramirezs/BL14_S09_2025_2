@@ -290,12 +290,9 @@ echo "Flujo de trabajo completado."
 - Ejecución secuencial o paralela de órdenes
 - Control de trabajo
 - Variables, operadores, estructuras de control
-- Funciones
-- Redirecciones de entrada y salida
-- Ejecución interactiva de comandos
-- Creación de alias
 
 ## 🎓 Palabras Clave
+ 
 - **Programación en Shell**
 - **Scripts**
 - **Automatización**
