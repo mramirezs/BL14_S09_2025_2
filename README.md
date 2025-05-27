@@ -3,43 +3,17 @@
 ## Descripción del Curso
 **Facultad de Ciencias de la Salud - Programa de Biología**  
 **Curso:** Principios de programación - Bioinformática  
-**Semestre:** 2024-2  
+**Semestre:** 2025-2  
 
 **Docentes:**
 - Frank Guzman Escudero
 - Manuel Ramírez Sáenz
 
-## Logro de Aprendizaje
-Al finalizar esta sesión, el estudiante conoce la utilidad y beneficios de la programación en shell a través de scripts.
-
-## Contenido del Repositorio
-
-### 📁 Estructura de Carpetas
-```
-shell-programming-intro/
-├── README.md
-├── scripts/
-│   ├── ejemplos/
-│   │   └── script_ejemplo.sh
-│   └── practicas/
-│       ├── actividad1.sh
-│       └── actividad2.sh
-├── editores/
-│   ├── vim-guia.md
-│   ├── nano-guia.md
-│   └── vscode-setup.md
-├── datos/
-│   ├── data.txt
-│   ├── data1.txt
-│   └── data1ordenada.txt
-└── recursos/
-    ├── tipos-shell.md
-    └── comandos-basicos.md
-```
-
 ## 🛠️ ¿Qué es Shell?
 
 El **shell** es un intérprete de comandos que provee una interfaz entre el usuario y el kernel del sistema operativo. Interpreta los comandos que el usuario escribe para que puedan ser ejecutados.
+
+![](https://i.sstatic.net/LBRdx.png)
 
 ### Arquitectura de Linux
 - **Hardware**
