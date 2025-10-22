@@ -188,13 +188,59 @@ sudo apt-get install bash-doc
 man bash
 ```
 
-## #️⃣ Shebang
+## El Shebang `#!`
 
 Los scripts deben empezar con `#!` seguido del programa intérprete:
 
 ```bash
 #!/bin/bash
 ```
+**¿Qué significa?**
+- `#!` = "intérprete de comandos" (shebang)
+- `/bin/bash` = ubicación del intérprete bash que queremos usar
+
+**¿Por qué es importante?**
+- Le dice al sistema operativo **cómo ejecutar el archivo**
+- Sin él, el sistema no sabría que es un script bash
+- Debe ser **la primera línea** del archivo
+
+**Analógía:** Como poner una etiqueta que dice "Abre esto con Bash"
+
+## Comentarios
+
+Los comentarios comienzan con `#` y el sistema los ignora:
+
+```bash
+#!/bin/bash
+# Este es un comentario
+# Fecha: 15/05/2024
+# Autor: Tu nombre
+
+echo "Esta línea SÍ se ejecuta"
+# echo "Esta línea NO se ejecuta (es comentario)"
+```
+
+**Buena práctica:** Documenta qué hace tu script con comentarios claros.
+
+## Variables
+
+Una **variable** es un contenedor que almacena un valor (texto, números, rutas de archivos, etc.).
+
+#### Crear una variable
+
+```bash
+NOMBRE_PROYECTO="Analisis_RNA"
+NUMERO_MUESTRAS=50
+RUTA_DATOS="/home/usuario/datos"
+```
+
+**Reglas para nombres de variables:**
+- Usa MAYÚSCULAS por convención
+- Puedes usar números y guiones bajos
+- No pueden empezar con número
+- No uses espacios alrededor del `=`
+
+
 
 **Ejemplo de script:**
 
