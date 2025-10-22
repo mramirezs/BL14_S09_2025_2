@@ -188,6 +188,27 @@ sudo apt-get install bash-doc
 man bash
 ```
 
+#### 🔧 Variables Especiales del Sistema
+
+Bash tiene variables predefinidas que puedes usar:
+
+| Variable | Significado | Ejemplo |
+|----------|-------------|---------|
+| `$HOME` | Directorio del usuario | `/home/estudiante` |
+| `$USER` | Nombre del usuario | `estudiante` |
+| `$PWD` | Directorio actual | `/home/estudiante/proyecto` |
+| `$SHELL` | Shell actual | `/bin/bash` |
+
+```bash
+#!/bin/bash
+echo "Hola $USER, estás en $PWD"
+```
+
+**Output:**
+```
+Hola estudiante, estás en /home/estudiante/proyecto
+```
+
 ## El Shebang `#!`
 
 Los scripts deben empezar con `#!` seguido del programa intérprete:
