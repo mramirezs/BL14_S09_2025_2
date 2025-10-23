@@ -281,6 +281,85 @@ nano script.sh
 bash script.sh
 ```
 
+## 📝 Capturar Salida de Comandos en Variables
+
+Puedes guardar el resultado de un comando en una variable:
+
+```bash
+#!/bin/bash
+FECHA=$(date +%Y-%m-%d)
+DIRECTORIO_ACTUAL=$(pwd)
+
+echo "Hoy es: $FECHA"
+echo "Trabajas en: $DIRECTORIO_ACTUAL"
+```
+
+**Sintaxis:** `VARIABLE=$(comando)`
+
+---
+
+## 🚀 Estructura Básica de un Script
+
+```bash
+#!/bin/bash
+# Comentario: descripción del script
+# Autor: Tu nombre
+# Fecha: DD/MM/YYYY
+
+# Sección 1: Definir variables
+VARIABLE1="valor"
+VARIABLE2="otro_valor"
+
+# Sección 2: Ejecutar comandos
+comando1
+comando2
+
+# Sección 3: Salida/Resultado
+echo "Script completado"
+```
+
+---
+
+## ✍️ Paso a Paso: Crear tu Primer Script
+
+### Paso 1: Abrir un editor
+
+```bash
+nano mi_primer_script.sh
+```
+
+### Paso 2: Escribir el script
+
+```bash
+#!/bin/bash
+# Mi primer script - Saludo personalizado
+
+NOMBRE="Estudiante"
+CURSO="Bioinformática"
+
+echo "¡Hola $NOMBRE!"
+echo "Bienvenido al curso de $CURSO"
+echo "Hoy es: $(date +%A)"
+```
+
+### Paso 3: Guardar
+
+Presiona: `Ctrl + X` → `Y` → `Enter`
+
+### Paso 4: Ejecutar
+
+```bash
+bash mi_primer_script.sh
+```
+
+**Output:**
+```
+¡Hola Estudiante!
+Bienvenido al curso de Bioinformática
+Hoy es: Saturday
+```
+
+
 ## 🎯 Actividades Prácticas
 
 ### **Creación de Scripts de Shell para Bioinformática**
