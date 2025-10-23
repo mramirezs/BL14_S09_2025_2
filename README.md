@@ -200,7 +200,6 @@ Bash tiene variables predefinidas que puedes usar:
 | `$SHELL` | Shell actual | `/bin/bash` |
 
 ```bash
-#!/bin/bash
 echo "Hola $USER, estás en $PWD"
 ```
 
